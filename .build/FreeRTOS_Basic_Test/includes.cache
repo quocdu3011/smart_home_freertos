@@ -1,0 +1,67 @@
+[
+  {
+    "Sourcefile": null,
+    "Include": "",
+    "Includepath": "C:\\Users\\quocd\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino"
+  },
+  {
+    "Sourcefile": null,
+    "Include": "",
+    "Includepath": "C:\\Users\\quocd\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.6\\variants\\standard"
+  },
+  {
+    "Sourcefile": "E:\\SmartHome_uno\\.build\\FreeRTOS_Basic_Test\\sketch\\FreeRTOS_Basic_Test.ino.cpp",
+    "Include": "Arduino_FreeRTOS.h",
+    "Includepath": "E:\\Arduino\\libraries\\libraries\\FreeRTOS\\src"
+  },
+  {
+    "Sourcefile": "E:\\SmartHome_uno\\.build\\FreeRTOS_Basic_Test\\sketch\\FreeRTOS_Basic_Test.ino.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "E:\\Arduino\\libraries\\libraries\\FreeRTOS\\src\\event_groups.c",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "E:\\Arduino\\libraries\\libraries\\FreeRTOS\\src\\heap_3.c",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "E:\\Arduino\\libraries\\libraries\\FreeRTOS\\src\\list.c",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "E:\\Arduino\\libraries\\libraries\\FreeRTOS\\src\\port.c",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "E:\\Arduino\\libraries\\libraries\\FreeRTOS\\src\\queue.c",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "E:\\Arduino\\libraries\\libraries\\FreeRTOS\\src\\stream_buffer.c",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "E:\\Arduino\\libraries\\libraries\\FreeRTOS\\src\\tasks.c",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "E:\\Arduino\\libraries\\libraries\\FreeRTOS\\src\\timers.c",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "E:\\Arduino\\libraries\\libraries\\FreeRTOS\\src\\variantHooks.cpp",
+    "Include": "",
+    "Includepath": null
+  }
+]

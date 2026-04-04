@@ -1,0 +1,29 @@
+E:\SmartHome_uno\.build\RFID_Servo_Form_Base_FreeRTOS\sketch\RFID_Servo_Form_Base_FreeRTOS.ino.cpp.o: \
+ E:\SmartHome_uno\.build\RFID_Servo_Form_Base_FreeRTOS\sketch\RFID_Servo_Form_Base_FreeRTOS.ino.cpp \
+ C:\Users\quocd\AppData\Local\Arduino15\packages\arduino\hardware\avr\1.8.6\cores\arduino/Arduino.h \
+ C:\Users\quocd\AppData\Local\Arduino15\packages\arduino\hardware\avr\1.8.6\cores\arduino/binary.h \
+ C:\Users\quocd\AppData\Local\Arduino15\packages\arduino\hardware\avr\1.8.6\cores\arduino/WCharacter.h \
+ C:\Users\quocd\AppData\Local\Arduino15\packages\arduino\hardware\avr\1.8.6\cores\arduino/WString.h \
+ C:\Users\quocd\AppData\Local\Arduino15\packages\arduino\hardware\avr\1.8.6\cores\arduino/HardwareSerial.h \
+ C:\Users\quocd\AppData\Local\Arduino15\packages\arduino\hardware\avr\1.8.6\cores\arduino/Stream.h \
+ C:\Users\quocd\AppData\Local\Arduino15\packages\arduino\hardware\avr\1.8.6\cores\arduino/Print.h \
+ C:\Users\quocd\AppData\Local\Arduino15\packages\arduino\hardware\avr\1.8.6\cores\arduino/Printable.h \
+ C:\Users\quocd\AppData\Local\Arduino15\packages\arduino\hardware\avr\1.8.6\cores\arduino/USBAPI.h \
+ C:\Users\quocd\AppData\Local\Arduino15\packages\arduino\hardware\avr\1.8.6\cores\arduino/Arduino.h \
+ C:\Users\quocd\AppData\Local\Arduino15\packages\arduino\hardware\avr\1.8.6\variants\standard/pins_arduino.h \
+ E:\Arduino\libraries\libraries\FreeRTOS\src/Arduino_FreeRTOS.h \
+ E:\Arduino\libraries\libraries\FreeRTOS\src/FreeRTOSConfig.h \
+ E:\Arduino\libraries\libraries\FreeRTOS\src/projdefs.h \
+ E:\Arduino\libraries\libraries\FreeRTOS\src/portable.h \
+ E:\Arduino\libraries\libraries\FreeRTOS\src/portmacro.h \
+ E:\Arduino\libraries\libraries\FreeRTOS\src/mpu_wrappers.h \
+ E:\Arduino\libraries\libraries\FreeRTOS\src/FreeRTOSVariant.h \
+ E:\Arduino\libraries\libraries\FreeRTOS\src/Arduino_FreeRTOS.h \
+ E:\Arduino\libraries\libraries\FreeRTOS\src/task.h \
+ E:\Arduino\libraries\libraries\FreeRTOS\src/list.h \
+ C:\Users\quocd\AppData\Local\Arduino15\packages\arduino\hardware\avr\1.8.6\libraries\SPI\src/SPI.h \
+ E:\Arduino\libraries\libraries\MFRC522\src/MFRC522.h \
+ E:\Arduino\libraries\libraries\MFRC522\src/require_cpp11.h \
+ E:\Arduino\libraries\libraries\MFRC522\src/deprecated.h \
+ C:\Users\quocd\AppData\Local\Arduino15\libraries\Servo\src/Servo.h \
+ C:\Users\quocd\AppData\Local\Arduino15\libraries\Servo\src/avr/ServoTimers.h

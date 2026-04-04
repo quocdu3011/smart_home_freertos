@@ -1,0 +1,187 @@
+[
+  {
+    "Sourcefile": null,
+    "Include": "",
+    "Includepath": "C:\\Users\\quocd\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino"
+  },
+  {
+    "Sourcefile": null,
+    "Include": "",
+    "Includepath": "C:\\Users\\quocd\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.6\\variants\\standard"
+  },
+  {
+    "Sourcefile": "E:\\SmartHome_uno\\.build\\SmartHome_Form_Base_FreeRTOS\\sketch\\SmartHome_Form_Base_FreeRTOS.ino.cpp",
+    "Include": "Arduino_FreeRTOS.h",
+    "Includepath": "E:\\Arduino\\libraries\\libraries\\FreeRTOS\\src"
+  },
+  {
+    "Sourcefile": "E:\\SmartHome_uno\\.build\\SmartHome_Form_Base_FreeRTOS\\sketch\\SmartHome_Form_Base_FreeRTOS.ino.cpp",
+    "Include": "SPI.h",
+    "Includepath": "C:\\Users\\quocd\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.6\\libraries\\SPI\\src"
+  },
+  {
+    "Sourcefile": "E:\\SmartHome_uno\\.build\\SmartHome_Form_Base_FreeRTOS\\sketch\\SmartHome_Form_Base_FreeRTOS.ino.cpp",
+    "Include": "MFRC522.h",
+    "Includepath": "E:\\Arduino\\libraries\\libraries\\MFRC522\\src"
+  },
+  {
+    "Sourcefile": "E:\\SmartHome_uno\\.build\\SmartHome_Form_Base_FreeRTOS\\sketch\\SmartHome_Form_Base_FreeRTOS.ino.cpp",
+    "Include": "Servo.h",
+    "Includepath": "C:\\Users\\quocd\\AppData\\Local\\Arduino15\\libraries\\Servo\\src"
+  },
+  {
+    "Sourcefile": "E:\\SmartHome_uno\\.build\\SmartHome_Form_Base_FreeRTOS\\sketch\\SmartHome_Form_Base_FreeRTOS.ino.cpp",
+    "Include": "Wire.h",
+    "Includepath": "C:\\Users\\quocd\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.6\\libraries\\Wire\\src"
+  },
+  {
+    "Sourcefile": "E:\\SmartHome_uno\\.build\\SmartHome_Form_Base_FreeRTOS\\sketch\\SmartHome_Form_Base_FreeRTOS.ino.cpp",
+    "Include": "LiquidCrystal_I2C.h",
+    "Includepath": "E:\\Arduino\\libraries\\libraries\\LiquidCrystal_I2C"
+  },
+  {
+    "Sourcefile": "E:\\SmartHome_uno\\.build\\SmartHome_Form_Base_FreeRTOS\\sketch\\SmartHome_Form_Base_FreeRTOS.ino.cpp",
+    "Include": "DHT.h",
+    "Includepath": "E:\\Arduino\\libraries\\libraries\\DHT_sensor_library"
+  },
+  {
+    "Sourcefile": "E:\\SmartHome_uno\\.build\\SmartHome_Form_Base_FreeRTOS\\sketch\\SmartHome_Form_Base_FreeRTOS.ino.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "E:\\Arduino\\libraries\\libraries\\FreeRTOS\\src\\event_groups.c",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "E:\\Arduino\\libraries\\libraries\\FreeRTOS\\src\\heap_3.c",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "E:\\Arduino\\libraries\\libraries\\FreeRTOS\\src\\list.c",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "E:\\Arduino\\libraries\\libraries\\FreeRTOS\\src\\port.c",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "E:\\Arduino\\libraries\\libraries\\FreeRTOS\\src\\queue.c",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "E:\\Arduino\\libraries\\libraries\\FreeRTOS\\src\\stream_buffer.c",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "E:\\Arduino\\libraries\\libraries\\FreeRTOS\\src\\tasks.c",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "E:\\Arduino\\libraries\\libraries\\FreeRTOS\\src\\timers.c",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "E:\\Arduino\\libraries\\libraries\\FreeRTOS\\src\\variantHooks.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\quocd\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.6\\libraries\\SPI\\src\\SPI.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "E:\\Arduino\\libraries\\libraries\\MFRC522\\src\\MFRC522.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "E:\\Arduino\\libraries\\libraries\\MFRC522\\src\\MFRC522Extended.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\quocd\\AppData\\Local\\Arduino15\\libraries\\Servo\\src\\avr\\Servo.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\quocd\\AppData\\Local\\Arduino15\\libraries\\Servo\\src\\mbed\\Servo.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\quocd\\AppData\\Local\\Arduino15\\libraries\\Servo\\src\\megaavr\\Servo.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\quocd\\AppData\\Local\\Arduino15\\libraries\\Servo\\src\\nrf52\\Servo.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\quocd\\AppData\\Local\\Arduino15\\libraries\\Servo\\src\\renesas\\Servo.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\quocd\\AppData\\Local\\Arduino15\\libraries\\Servo\\src\\sam\\Servo.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\quocd\\AppData\\Local\\Arduino15\\libraries\\Servo\\src\\samd\\Servo.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\quocd\\AppData\\Local\\Arduino15\\libraries\\Servo\\src\\stm32f4\\Servo.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\quocd\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.6\\libraries\\Wire\\src\\Wire.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\quocd\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.6\\libraries\\Wire\\src\\utility\\twi.c",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "E:\\Arduino\\libraries\\libraries\\LiquidCrystal_I2C\\LiquidCrystal_I2C.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "E:\\Arduino\\libraries\\libraries\\DHT_sensor_library\\DHT.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "E:\\Arduino\\libraries\\libraries\\DHT_sensor_library\\DHT_U.cpp",
+    "Include": "Adafruit_Sensor.h",
+    "Includepath": "E:\\Arduino\\libraries\\libraries\\Adafruit_Unified_Sensor"
+  },
+  {
+    "Sourcefile": "E:\\Arduino\\libraries\\libraries\\DHT_sensor_library\\DHT_U.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "E:\\Arduino\\libraries\\libraries\\Adafruit_Unified_Sensor\\Adafruit_Sensor.cpp",
+    "Include": "",
+    "Includepath": null
+  }
+]
