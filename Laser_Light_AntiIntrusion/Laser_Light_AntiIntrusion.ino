@@ -1,7 +1,7 @@
-#include <Arduino.h>
+#include <Arduino_FreeRTOS.h>
 
 /*
-  Laser + Light Sensor anti-intrusion alarm
+  Laser + Light Sensor anti-intrusion alarm using FreeRTOS
 
   Default pin map for Arduino Uno R3
   D4 -> buzzer
@@ -10,8 +10,9 @@
 
   How it works
   - The laser points at the light sensor
-  - If the beam is broken, the buzzer alarm is triggered
-  - The alarm stays active for a short hold time even if the beam restores
+  - If the beam is broken, the alarm is triggered
+  - The alarm remains active for a short hold time even if the beam restores
+  - FreeRTOS splits sensing and alarm output into separate tasks
 */
 
 const uint8_t PIN_BUZZER = 4;
@@ -24,22 +25,23 @@ const uint8_t LIGHT_SENSOR_BROKEN_LEVEL = HIGH;
 
 const uint8_t SENSOR_CONFIRM_COUNT = 3;
 const uint16_t SENSOR_SAMPLE_MS = 20;
-const uint16_t ALARM_HOLD_MS = 10000;
 const uint16_t ALARM_BEEP_INTERVAL_MS = 150;
+const uint16_t HEARTBEAT_MS = 1000;
+const uint8_t ALARM_HOLD_TICKS = 100;  // 100 x 100ms = 10s
 
-uint8_t gBrokenCounter = 0;
-bool gAlarmActive = false;
-unsigned long gAlarmUntilMs = 0;
-unsigned long gLastSampleMs = 0;
-unsigned long gLastBeepToggleMs = 0;
-bool gBuzzerState = false;
+volatile uint8_t gBeamBroken = 0;
+volatile uint8_t gAlarmActive = 0;
+volatile uint8_t gAlarmHoldCounter = 0;
 
+void TaskBeamMonitor(void *pvParameters);
+void TaskAlarmOutput(void *pvParameters);
+void TaskHeartbeat(void *pvParameters);
 void setBuzzer(bool enabled);
 
 void setup() {
   Serial.begin(115200);
   delay(800);
-
+  Serial.println(F("Laser anti-intrusion FreeRTOS ready."));
   pinMode(PIN_BUZZER, OUTPUT);
   pinMode(PIN_LIGHT_DO, INPUT);
 
@@ -50,54 +52,90 @@ void setup() {
 
   setBuzzer(false);
 
-  Serial.println(F("Laser anti-intrusion alarm ready."));
+  Serial.println(F("Laser anti-intrusion FreeRTOS ready."));
   Serial.println(F("Beam broken -> alarm active."));
+
+  xTaskCreate(TaskBeamMonitor, "Beam", 160, NULL, 3, NULL);
+  xTaskCreate(TaskAlarmOutput, "Alarm", 160, NULL, 2, NULL);
+  xTaskCreate(TaskHeartbeat, "Log", 128, NULL, 1, NULL);
 }
 
 void loop() {
-  const unsigned long now = millis();
+  // Scheduler is started automatically by Arduino_FreeRTOS.
+}
 
-  if (now - gLastSampleMs >= SENSOR_SAMPLE_MS) {
-    gLastSampleMs = now;
+void TaskBeamMonitor(void *pvParameters) {
+  (void) pvParameters;
 
+  uint8_t brokenCounter = 0;
+  uint8_t lastAlarmState = 0;
+
+  for (;;) {
     const uint8_t lightRaw = digitalRead(PIN_LIGHT_DO);
     const bool beamBrokenNow = (lightRaw == LIGHT_SENSOR_BROKEN_LEVEL);
 
     if (beamBrokenNow) {
-      if (gBrokenCounter < SENSOR_CONFIRM_COUNT) {
-        gBrokenCounter++;
+      if (brokenCounter < SENSOR_CONFIRM_COUNT) {
+        brokenCounter++;
       }
-    } else if (gBrokenCounter > 0) {
-      gBrokenCounter--;
+    } else if (brokenCounter > 0) {
+      brokenCounter--;
     }
 
-    if (gBrokenCounter >= SENSOR_CONFIRM_COUNT) {
-      gAlarmActive = true;
-      gAlarmUntilMs = now + ALARM_HOLD_MS;
-    } else if (gAlarmActive && now >= gAlarmUntilMs) {
-      gAlarmActive = false;
-      gBuzzerState = false;
-      setBuzzer(false);
+    gBeamBroken = (brokenCounter >= SENSOR_CONFIRM_COUNT);
+
+    if (gBeamBroken) {
+      gAlarmActive = 1;
+      gAlarmHoldCounter = ALARM_HOLD_TICKS;
+    } else if (gAlarmHoldCounter > 0) {
+      gAlarmHoldCounter--;
+      gAlarmActive = 1;
+    } else {
+      gAlarmActive = 0;
+    }
+
+    if (gAlarmActive && !lastAlarmState) {
+      Serial.println(F("ALERT: Intrusion detected. Beam broken."));
+    } else if (!gAlarmActive && lastAlarmState) {
       Serial.println(F("Alarm cleared."));
     }
-  }
+    lastAlarmState = gAlarmActive;
 
-  if (gAlarmActive) {
-    if (now - gLastBeepToggleMs >= ALARM_BEEP_INTERVAL_MS) {
-      gLastBeepToggleMs = now;
-      gBuzzerState = !gBuzzerState;
-      setBuzzer(gBuzzerState);
+    vTaskDelay(pdMS_TO_TICKS(SENSOR_SAMPLE_MS));
+  }
+}
+
+void TaskAlarmOutput(void *pvParameters) {
+  (void) pvParameters;
+
+  bool buzzerState = false;
+
+  for (;;) {
+    if (gAlarmActive) {
+      buzzerState = !buzzerState;
+      setBuzzer(buzzerState);
+    } else {
+      buzzerState = false;
+      setBuzzer(false);
     }
-  } else if (gBuzzerState) {
-    gBuzzerState = false;
-    setBuzzer(false);
-  }
 
-  static bool lastAlarmState = false;
-  if (gAlarmActive && !lastAlarmState) {
-    Serial.println(F("ALERT: Intrusion detected. Beam broken."));
+    vTaskDelay(pdMS_TO_TICKS(ALARM_BEEP_INTERVAL_MS));
   }
-  lastAlarmState = gAlarmActive;
+}
+
+void TaskHeartbeat(void *pvParameters) {
+  (void) pvParameters;
+
+  for (;;) {
+    Serial.print(F("Beam:"));
+    Serial.print(gBeamBroken);
+    Serial.print(F(" Alarm:"));
+    Serial.print(gAlarmActive);
+    Serial.print(F(" Hold:"));
+    Serial.println(gAlarmHoldCounter);
+
+    vTaskDelay(pdMS_TO_TICKS(HEARTBEAT_MS));
+  }
 }
 
 void setBuzzer(bool enabled) {
