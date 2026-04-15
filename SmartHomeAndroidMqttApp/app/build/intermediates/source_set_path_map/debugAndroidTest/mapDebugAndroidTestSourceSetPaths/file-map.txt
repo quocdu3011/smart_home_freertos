@@ -1,0 +1,4 @@
+com.quocdu.smarthomemqtt.test.app-androidTest-0 /home/quocdu/Bản tải về/arduino/SmartHomeAndroidMqttApp/app/build/generated/res/resValues/androidTest/debug
+com.quocdu.smarthomemqtt.test.app-mergeDebugAndroidTestResources-1 /home/quocdu/Bản tải về/arduino/SmartHomeAndroidMqttApp/app/build/intermediates/incremental/debugAndroidTest/mergeDebugAndroidTestResources/merged.dir
+com.quocdu.smarthomemqtt.test.app-mergeDebugAndroidTestResources-2 /home/quocdu/Bản tải về/arduino/SmartHomeAndroidMqttApp/app/build/intermediates/incremental/debugAndroidTest/mergeDebugAndroidTestResources/stripped.dir
+com.quocdu.smarthomemqtt.test.app-debugAndroidTest-3 /home/quocdu/Bản tải về/arduino/SmartHomeAndroidMqttApp/app/build/intermediates/merged_res/debugAndroidTest/mergeDebugAndroidTestResources

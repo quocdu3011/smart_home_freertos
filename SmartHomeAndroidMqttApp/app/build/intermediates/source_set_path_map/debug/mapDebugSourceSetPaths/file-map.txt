@@ -1,0 +1,64 @@
+com.quocdu.smarthomemqtt.app-recyclerview-1.1.0-0 /home/quocdu/.gradle/caches/9.0.0/transforms/01fd52a4335b9c9f243fb6ff3265f114/transformed/recyclerview-1.1.0/res
+com.quocdu.smarthomemqtt.app-lifecycle-process-2.8.7-1 /home/quocdu/.gradle/caches/9.0.0/transforms/06f81ff0663f2c050d754b930f5efe48/transformed/lifecycle-process-2.8.7/res
+com.quocdu.smarthomemqtt.app-activity-ktx-1.9.3-2 /home/quocdu/.gradle/caches/9.0.0/transforms/07dcd78e8c9dec6752207a22d38a07cf/transformed/activity-ktx-1.9.3/res
+com.quocdu.smarthomemqtt.app-core-ktx-1.13.1-3 /home/quocdu/.gradle/caches/9.0.0/transforms/0d407fa3c8ac8b2dfddc5b0e8f57b20b/transformed/core-ktx-1.13.1/res
+com.quocdu.smarthomemqtt.app-startup-runtime-1.1.1-4 /home/quocdu/.gradle/caches/9.0.0/transforms/0d693d9e66f55dd2ae92eda2293ec246/transformed/startup-runtime-1.1.1/res
+com.quocdu.smarthomemqtt.app-activity-1.9.3-5 /home/quocdu/.gradle/caches/9.0.0/transforms/0e8fada6c09aa8b49049358c14477ac6/transformed/activity-1.9.3/res
+com.quocdu.smarthomemqtt.app-ui-util-release-6 /home/quocdu/.gradle/caches/9.0.0/transforms/0fea63785e899195bcf9497bccc492a9/transformed/ui-util-release/res
+com.quocdu.smarthomemqtt.app-lifecycle-viewmodel-savedstate-2.8.7-7 /home/quocdu/.gradle/caches/9.0.0/transforms/10434bdc2d6ed44fff9fe21f24f670d2/transformed/lifecycle-viewmodel-savedstate-2.8.7/res
+com.quocdu.smarthomemqtt.app-ui-text-release-8 /home/quocdu/.gradle/caches/9.0.0/transforms/123f0741259d33711976147b6a3149dc/transformed/ui-text-release/res
+com.quocdu.smarthomemqtt.app-activity-compose-1.9.3-9 /home/quocdu/.gradle/caches/9.0.0/transforms/1260617467c3ba9b4623c56d76fe67f5/transformed/activity-compose-1.9.3/res
+com.quocdu.smarthomemqtt.app-annotation-experimental-1.4.1-10 /home/quocdu/.gradle/caches/9.0.0/transforms/1471e967efef8f436437d704ea24363b/transformed/annotation-experimental-1.4.1/res
+com.quocdu.smarthomemqtt.app-lifecycle-livedata-core-2.8.7-11 /home/quocdu/.gradle/caches/9.0.0/transforms/1b9b6ddc718a714ac85121b5180fe566/transformed/lifecycle-livedata-core-2.8.7/res
+com.quocdu.smarthomemqtt.app-foundation-release-12 /home/quocdu/.gradle/caches/9.0.0/transforms/2042dbb615d0ec0f778d2ebb921952a5/transformed/foundation-release/res
+com.quocdu.smarthomemqtt.app-material-1.12.0-13 /home/quocdu/.gradle/caches/9.0.0/transforms/24bd5cc203521d68f6f3d3cb6c1e7388/transformed/material-1.12.0/res
+com.quocdu.smarthomemqtt.app-appcompat-1.6.1-14 /home/quocdu/.gradle/caches/9.0.0/transforms/25b7e14ccfaff3d10e4d8ca15fa8b38a/transformed/appcompat-1.6.1/res
+com.quocdu.smarthomemqtt.app-lifecycle-livedata-2.8.7-15 /home/quocdu/.gradle/caches/9.0.0/transforms/269239ac97441115839abcc7234a97ce/transformed/lifecycle-livedata-2.8.7/res
+com.quocdu.smarthomemqtt.app-runtime-release-16 /home/quocdu/.gradle/caches/9.0.0/transforms/2b6179269675702f3f7bb0c5976f3906/transformed/runtime-release/res
+com.quocdu.smarthomemqtt.app-lifecycle-viewmodel-compose-release-17 /home/quocdu/.gradle/caches/9.0.0/transforms/2e8db4965be0532c66fd3c5cf0507763/transformed/lifecycle-viewmodel-compose-release/res
+com.quocdu.smarthomemqtt.app-ui-release-18 /home/quocdu/.gradle/caches/9.0.0/transforms/3714eab6b432ede8ea8df51eba90df1d/transformed/ui-release/res
+com.quocdu.smarthomemqtt.app-savedstate-ktx-1.2.1-19 /home/quocdu/.gradle/caches/9.0.0/transforms/3da425920aef1bc4a0451584199473ef/transformed/savedstate-ktx-1.2.1/res
+com.quocdu.smarthomemqtt.app-core-runtime-2.2.0-20 /home/quocdu/.gradle/caches/9.0.0/transforms/475aa153ce27355a40e9c98428a224c6/transformed/core-runtime-2.2.0/res
+com.quocdu.smarthomemqtt.app-lifecycle-runtime-release-21 /home/quocdu/.gradle/caches/9.0.0/transforms/537c3898df9b62f7e703abe189db79c6/transformed/lifecycle-runtime-release/res
+com.quocdu.smarthomemqtt.app-animation-release-22 /home/quocdu/.gradle/caches/9.0.0/transforms/53b9e23defb7de73c293b640d4500ee8/transformed/animation-release/res
+com.quocdu.smarthomemqtt.app-ui-test-manifest-1.7.5-23 /home/quocdu/.gradle/caches/9.0.0/transforms/56b179079219f6c9dfc0cdd5b83deec8/transformed/ui-test-manifest-1.7.5/res
+com.quocdu.smarthomemqtt.app-fragment-1.3.6-24 /home/quocdu/.gradle/caches/9.0.0/transforms/58332d78b45080847e90b295909b29db/transformed/fragment-1.3.6/res
+com.quocdu.smarthomemqtt.app-lifecycle-runtime-ktx-release-25 /home/quocdu/.gradle/caches/9.0.0/transforms/5bc5c71718f3405c67b8050e3f6ca88a/transformed/lifecycle-runtime-ktx-release/res
+com.quocdu.smarthomemqtt.app-transition-1.5.0-26 /home/quocdu/.gradle/caches/9.0.0/transforms/78d153582b0c8096339014dc6a75a19c/transformed/transition-1.5.0/res
+com.quocdu.smarthomemqtt.app-material-icons-core-release-27 /home/quocdu/.gradle/caches/9.0.0/transforms/83ed403543744712a3e005783c09bb72/transformed/material-icons-core-release/res
+com.quocdu.smarthomemqtt.app-lifecycle-runtime-compose-release-28 /home/quocdu/.gradle/caches/9.0.0/transforms/85407a9a9842e927c1470a8cff7c2c75/transformed/lifecycle-runtime-compose-release/res
+com.quocdu.smarthomemqtt.app-core-1.13.1-29 /home/quocdu/.gradle/caches/9.0.0/transforms/8c97d544f9fbff002fa0e9b4e2fe7242/transformed/core-1.13.1/res
+com.quocdu.smarthomemqtt.app-material-release-30 /home/quocdu/.gradle/caches/9.0.0/transforms/8f02e7a69f3fe1eb04b018a166797989/transformed/material-release/res
+com.quocdu.smarthomemqtt.app-runtime-saveable-release-31 /home/quocdu/.gradle/caches/9.0.0/transforms/923d590f7d8904a8b1ef144e495a4d8b/transformed/runtime-saveable-release/res
+com.quocdu.smarthomemqtt.app-lifecycle-viewmodel-ktx-2.8.7-32 /home/quocdu/.gradle/caches/9.0.0/transforms/933485c6f5de35a6a3bce9aaf896dfe3/transformed/lifecycle-viewmodel-ktx-2.8.7/res
+com.quocdu.smarthomemqtt.app-savedstate-1.2.1-33 /home/quocdu/.gradle/caches/9.0.0/transforms/93a604e3547c7029bc64fc52663931e1/transformed/savedstate-1.2.1/res
+com.quocdu.smarthomemqtt.app-lifecycle-viewmodel-release-34 /home/quocdu/.gradle/caches/9.0.0/transforms/9b17e9835dacdaefaf00cfb405498e93/transformed/lifecycle-viewmodel-release/res
+com.quocdu.smarthomemqtt.app-material3-release-35 /home/quocdu/.gradle/caches/9.0.0/transforms/9b5325bf1dcbfea0d7a5fb8641131002/transformed/material3-release/res
+com.quocdu.smarthomemqtt.app-coordinatorlayout-1.1.0-36 /home/quocdu/.gradle/caches/9.0.0/transforms/a08043ab460be3ad6f1ca0838222d7a4/transformed/coordinatorlayout-1.1.0/res
+com.quocdu.smarthomemqtt.app-drawerlayout-1.1.1-37 /home/quocdu/.gradle/caches/9.0.0/transforms/a1f5cc9b0e682358da6077201bcd8d7b/transformed/drawerlayout-1.1.1/res
+com.quocdu.smarthomemqtt.app-foundation-layout-release-38 /home/quocdu/.gradle/caches/9.0.0/transforms/a58fbed92cfebe83d609f26df265fc90/transformed/foundation-layout-release/res
+com.quocdu.smarthomemqtt.app-ui-graphics-release-39 /home/quocdu/.gradle/caches/9.0.0/transforms/a68bfd6036fbfab1d9e79bbb9feac33d/transformed/ui-graphics-release/res
+com.quocdu.smarthomemqtt.app-appcompat-resources-1.6.1-40 /home/quocdu/.gradle/caches/9.0.0/transforms/aa1ecb186ef84fd3d485dee611fcde3e/transformed/appcompat-resources-1.6.1/res
+com.quocdu.smarthomemqtt.app-material-ripple-release-41 /home/quocdu/.gradle/caches/9.0.0/transforms/aace2e58c964fbf714a8e86ee1db78a2/transformed/material-ripple-release/res
+com.quocdu.smarthomemqtt.app-lifecycle-livedata-core-ktx-2.8.7-42 /home/quocdu/.gradle/caches/9.0.0/transforms/affcaa20bf7d1b05a7704a7ea06f516b/transformed/lifecycle-livedata-core-ktx-2.8.7/res
+com.quocdu.smarthomemqtt.app-profileinstaller-1.3.1-43 /home/quocdu/.gradle/caches/9.0.0/transforms/b364fa3aa3f9640cd3eaf4c8eade1c52/transformed/profileinstaller-1.3.1/res
+com.quocdu.smarthomemqtt.app-ui-tooling-preview-release-44 /home/quocdu/.gradle/caches/9.0.0/transforms/b7909a704ffd4c838e7dd3ae9d1afaa4/transformed/ui-tooling-preview-release/res
+com.quocdu.smarthomemqtt.app-constraintlayout-2.0.1-45 /home/quocdu/.gradle/caches/9.0.0/transforms/b8337d1d0a67618a763bc0b16ffcec44/transformed/constraintlayout-2.0.1/res
+com.quocdu.smarthomemqtt.app-ui-tooling-release-46 /home/quocdu/.gradle/caches/9.0.0/transforms/bcaed3a381c0691a01dcdcafbdfb08c8/transformed/ui-tooling-release/res
+com.quocdu.smarthomemqtt.app-cardview-1.0.0-47 /home/quocdu/.gradle/caches/9.0.0/transforms/bf82eda9c92ce61cbe77013e39d2f052/transformed/cardview-1.0.0/res
+com.quocdu.smarthomemqtt.app-customview-poolingcontainer-1.0.0-48 /home/quocdu/.gradle/caches/9.0.0/transforms/cd1cacaa45ff246b13c05851df7985fc/transformed/customview-poolingcontainer-1.0.0/res
+com.quocdu.smarthomemqtt.app-graphics-path-1.0.1-49 /home/quocdu/.gradle/caches/9.0.0/transforms/cd68d9b322cdc5e53bbb741e05ac6da2/transformed/graphics-path-1.0.1/res
+com.quocdu.smarthomemqtt.app-viewpager2-1.0.0-50 /home/quocdu/.gradle/caches/9.0.0/transforms/d1879d3691a90fc0bee7394e7ba6299a/transformed/viewpager2-1.0.0/res
+com.quocdu.smarthomemqtt.app-emoji2-1.3.0-51 /home/quocdu/.gradle/caches/9.0.0/transforms/dfa171bec22766d39f10cb7aee7862e7/transformed/emoji2-1.3.0/res
+com.quocdu.smarthomemqtt.app-emoji2-views-helper-1.3.0-52 /home/quocdu/.gradle/caches/9.0.0/transforms/e1cc25c5b1885db14e2b23f73ae2a2d7/transformed/emoji2-views-helper-1.3.0/res
+com.quocdu.smarthomemqtt.app-ui-unit-release-53 /home/quocdu/.gradle/caches/9.0.0/transforms/e8de3476adbd370f10cca0a1afd8ce92/transformed/ui-unit-release/res
+com.quocdu.smarthomemqtt.app-ui-tooling-data-release-54 /home/quocdu/.gradle/caches/9.0.0/transforms/ec91878b374e7e4a26f10b464ee85fe8/transformed/ui-tooling-data-release/res
+com.quocdu.smarthomemqtt.app-animation-core-release-55 /home/quocdu/.gradle/caches/9.0.0/transforms/ee41c546e0488f0baea89fd8862ef025/transformed/animation-core-release/res
+com.quocdu.smarthomemqtt.app-ui-geometry-release-56 /home/quocdu/.gradle/caches/9.0.0/transforms/eef20cd0997169685c439b00278de9d7/transformed/ui-geometry-release/res
+com.quocdu.smarthomemqtt.app-material-icons-extended-release-57 /home/quocdu/.gradle/caches/9.0.0/transforms/fd5bbd8f2955be6b712b7a6ee2d3fede/transformed/material-icons-extended-release/res
+com.quocdu.smarthomemqtt.app-resValues-58 /home/quocdu/Bản tải về/arduino/SmartHomeAndroidMqttApp/app/build/generated/res/resValues/debug
+com.quocdu.smarthomemqtt.app-packageDebugResources-59 /home/quocdu/Bản tải về/arduino/SmartHomeAndroidMqttApp/app/build/intermediates/incremental/debug/packageDebugResources/merged.dir
+com.quocdu.smarthomemqtt.app-packageDebugResources-60 /home/quocdu/Bản tải về/arduino/SmartHomeAndroidMqttApp/app/build/intermediates/incremental/debug/packageDebugResources/stripped.dir
+com.quocdu.smarthomemqtt.app-debug-61 /home/quocdu/Bản tải về/arduino/SmartHomeAndroidMqttApp/app/build/intermediates/merged_res/debug/mergeDebugResources
+com.quocdu.smarthomemqtt.app-debug-62 /home/quocdu/Bản tải về/arduino/SmartHomeAndroidMqttApp/app/src/debug/res
+com.quocdu.smarthomemqtt.app-main-63 /home/quocdu/Bản tải về/arduino/SmartHomeAndroidMqttApp/app/src/main/res

@@ -1,0 +1,142 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.quocdu.smarthomemqtt"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="26"
+9        android:targetSdkVersion="35" />
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->/home/quocdu/Bản tải về/arduino/SmartHomeAndroidMqttApp/app/src/main/AndroidManifest.xml:4:5-67
+11-->/home/quocdu/Bản tải về/arduino/SmartHomeAndroidMqttApp/app/src/main/AndroidManifest.xml:4:22-64
+12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+12-->/home/quocdu/Bản tải về/arduino/SmartHomeAndroidMqttApp/app/src/main/AndroidManifest.xml:5:5-79
+12-->/home/quocdu/Bản tải về/arduino/SmartHomeAndroidMqttApp/app/src/main/AndroidManifest.xml:5:22-76
+13
+14    <permission
+14-->[androidx.core:core:1.13.1] /home/quocdu/.gradle/caches/9.0.0/transforms/8c97d544f9fbff002fa0e9b4e2fe7242/transformed/core-1.13.1/AndroidManifest.xml:22:5-24:47
+15        android:name="com.quocdu.smarthomemqtt.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+15-->[androidx.core:core:1.13.1] /home/quocdu/.gradle/caches/9.0.0/transforms/8c97d544f9fbff002fa0e9b4e2fe7242/transformed/core-1.13.1/AndroidManifest.xml:23:9-81
+16        android:protectionLevel="signature" />
+16-->[androidx.core:core:1.13.1] /home/quocdu/.gradle/caches/9.0.0/transforms/8c97d544f9fbff002fa0e9b4e2fe7242/transformed/core-1.13.1/AndroidManifest.xml:24:9-44
+17
+18    <uses-permission android:name="com.quocdu.smarthomemqtt.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+18-->[androidx.core:core:1.13.1] /home/quocdu/.gradle/caches/9.0.0/transforms/8c97d544f9fbff002fa0e9b4e2fe7242/transformed/core-1.13.1/AndroidManifest.xml:26:5-97
+18-->[androidx.core:core:1.13.1] /home/quocdu/.gradle/caches/9.0.0/transforms/8c97d544f9fbff002fa0e9b4e2fe7242/transformed/core-1.13.1/AndroidManifest.xml:26:22-94
+19
+20    <application
+20-->/home/quocdu/Bản tải về/arduino/SmartHomeAndroidMqttApp/app/src/main/AndroidManifest.xml:7:5-22:19
+21        android:allowBackup="true"
+21-->/home/quocdu/Bản tải về/arduino/SmartHomeAndroidMqttApp/app/src/main/AndroidManifest.xml:8:9-35
+22        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+22-->[androidx.core:core:1.13.1] /home/quocdu/.gradle/caches/9.0.0/transforms/8c97d544f9fbff002fa0e9b4e2fe7242/transformed/core-1.13.1/AndroidManifest.xml:28:18-86
+23        android:debuggable="true"
+24        android:extractNativeLibs="false"
+25        android:label="Smart Home MQTT"
+25-->/home/quocdu/Bản tải về/arduino/SmartHomeAndroidMqttApp/app/src/main/AndroidManifest.xml:9:9-40
+26        android:supportsRtl="true"
+26-->/home/quocdu/Bản tải về/arduino/SmartHomeAndroidMqttApp/app/src/main/AndroidManifest.xml:10:9-35
+27        android:theme="@style/Theme.SmartHomeMqtt" >
+27-->/home/quocdu/Bản tải về/arduino/SmartHomeAndroidMqttApp/app/src/main/AndroidManifest.xml:11:9-51
+28        <activity
+28-->/home/quocdu/Bản tải về/arduino/SmartHomeAndroidMqttApp/app/src/main/AndroidManifest.xml:12:9-21:20
+29            android:name="com.quocdu.smarthomemqtt.MainActivity"
+29-->/home/quocdu/Bản tải về/arduino/SmartHomeAndroidMqttApp/app/src/main/AndroidManifest.xml:13:13-41
+30            android:exported="true"
+30-->/home/quocdu/Bản tải về/arduino/SmartHomeAndroidMqttApp/app/src/main/AndroidManifest.xml:14:13-36
+31            android:theme="@style/Theme.SmartHomeMqtt" >
+31-->/home/quocdu/Bản tải về/arduino/SmartHomeAndroidMqttApp/app/src/main/AndroidManifest.xml:15:13-55
+32            <intent-filter>
+32-->/home/quocdu/Bản tải về/arduino/SmartHomeAndroidMqttApp/app/src/main/AndroidManifest.xml:16:13-20:29
+33                <action android:name="android.intent.action.MAIN" />
+33-->/home/quocdu/Bản tải về/arduino/SmartHomeAndroidMqttApp/app/src/main/AndroidManifest.xml:17:17-69
+33-->/home/quocdu/Bản tải về/arduino/SmartHomeAndroidMqttApp/app/src/main/AndroidManifest.xml:17:25-66
+34
+35                <category android:name="android.intent.category.LAUNCHER" />
+35-->/home/quocdu/Bản tải về/arduino/SmartHomeAndroidMqttApp/app/src/main/AndroidManifest.xml:19:17-77
+35-->/home/quocdu/Bản tải về/arduino/SmartHomeAndroidMqttApp/app/src/main/AndroidManifest.xml:19:27-74
+36            </intent-filter>
+37        </activity>
+38        <activity
+38-->[androidx.compose.ui:ui-tooling-android:1.7.5] /home/quocdu/.gradle/caches/9.0.0/transforms/bcaed3a381c0691a01dcdcafbdfb08c8/transformed/ui-tooling-release/AndroidManifest.xml:23:9-25:39
+39            android:name="androidx.compose.ui.tooling.PreviewActivity"
+39-->[androidx.compose.ui:ui-tooling-android:1.7.5] /home/quocdu/.gradle/caches/9.0.0/transforms/bcaed3a381c0691a01dcdcafbdfb08c8/transformed/ui-tooling-release/AndroidManifest.xml:24:13-71
+40            android:exported="true" />
+40-->[androidx.compose.ui:ui-tooling-android:1.7.5] /home/quocdu/.gradle/caches/9.0.0/transforms/bcaed3a381c0691a01dcdcafbdfb08c8/transformed/ui-tooling-release/AndroidManifest.xml:25:13-36
+41        <activity
+41-->[androidx.compose.ui:ui-test-manifest:1.7.5] /home/quocdu/.gradle/caches/9.0.0/transforms/56b179079219f6c9dfc0cdd5b83deec8/transformed/ui-test-manifest-1.7.5/AndroidManifest.xml:23:9-25:39
+42            android:name="androidx.activity.ComponentActivity"
+42-->[androidx.compose.ui:ui-test-manifest:1.7.5] /home/quocdu/.gradle/caches/9.0.0/transforms/56b179079219f6c9dfc0cdd5b83deec8/transformed/ui-test-manifest-1.7.5/AndroidManifest.xml:24:13-63
+43            android:exported="true" />
+43-->[androidx.compose.ui:ui-test-manifest:1.7.5] /home/quocdu/.gradle/caches/9.0.0/transforms/56b179079219f6c9dfc0cdd5b83deec8/transformed/ui-test-manifest-1.7.5/AndroidManifest.xml:25:13-36
+44
+45        <provider
+45-->[androidx.emoji2:emoji2:1.3.0] /home/quocdu/.gradle/caches/9.0.0/transforms/dfa171bec22766d39f10cb7aee7862e7/transformed/emoji2-1.3.0/AndroidManifest.xml:24:9-32:20
+46            android:name="androidx.startup.InitializationProvider"
+46-->[androidx.emoji2:emoji2:1.3.0] /home/quocdu/.gradle/caches/9.0.0/transforms/dfa171bec22766d39f10cb7aee7862e7/transformed/emoji2-1.3.0/AndroidManifest.xml:25:13-67
+47            android:authorities="com.quocdu.smarthomemqtt.androidx-startup"
+47-->[androidx.emoji2:emoji2:1.3.0] /home/quocdu/.gradle/caches/9.0.0/transforms/dfa171bec22766d39f10cb7aee7862e7/transformed/emoji2-1.3.0/AndroidManifest.xml:26:13-68
+48            android:exported="false" >
+48-->[androidx.emoji2:emoji2:1.3.0] /home/quocdu/.gradle/caches/9.0.0/transforms/dfa171bec22766d39f10cb7aee7862e7/transformed/emoji2-1.3.0/AndroidManifest.xml:27:13-37
+49            <meta-data
+49-->[androidx.emoji2:emoji2:1.3.0] /home/quocdu/.gradle/caches/9.0.0/transforms/dfa171bec22766d39f10cb7aee7862e7/transformed/emoji2-1.3.0/AndroidManifest.xml:29:13-31:52
+50                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+50-->[androidx.emoji2:emoji2:1.3.0] /home/quocdu/.gradle/caches/9.0.0/transforms/dfa171bec22766d39f10cb7aee7862e7/transformed/emoji2-1.3.0/AndroidManifest.xml:30:17-75
+51                android:value="androidx.startup" />
+51-->[androidx.emoji2:emoji2:1.3.0] /home/quocdu/.gradle/caches/9.0.0/transforms/dfa171bec22766d39f10cb7aee7862e7/transformed/emoji2-1.3.0/AndroidManifest.xml:31:17-49
+52            <meta-data
+52-->[androidx.lifecycle:lifecycle-process:2.8.7] /home/quocdu/.gradle/caches/9.0.0/transforms/06f81ff0663f2c050d754b930f5efe48/transformed/lifecycle-process-2.8.7/AndroidManifest.xml:29:13-31:52
+53                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+53-->[androidx.lifecycle:lifecycle-process:2.8.7] /home/quocdu/.gradle/caches/9.0.0/transforms/06f81ff0663f2c050d754b930f5efe48/transformed/lifecycle-process-2.8.7/AndroidManifest.xml:30:17-78
+54                android:value="androidx.startup" />
+54-->[androidx.lifecycle:lifecycle-process:2.8.7] /home/quocdu/.gradle/caches/9.0.0/transforms/06f81ff0663f2c050d754b930f5efe48/transformed/lifecycle-process-2.8.7/AndroidManifest.xml:31:17-49
+55            <meta-data
+55-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/quocdu/.gradle/caches/9.0.0/transforms/b364fa3aa3f9640cd3eaf4c8eade1c52/transformed/profileinstaller-1.3.1/AndroidManifest.xml:29:13-31:52
+56                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+56-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/quocdu/.gradle/caches/9.0.0/transforms/b364fa3aa3f9640cd3eaf4c8eade1c52/transformed/profileinstaller-1.3.1/AndroidManifest.xml:30:17-85
+57                android:value="androidx.startup" />
+57-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/quocdu/.gradle/caches/9.0.0/transforms/b364fa3aa3f9640cd3eaf4c8eade1c52/transformed/profileinstaller-1.3.1/AndroidManifest.xml:31:17-49
+58        </provider>
+59
+60        <receiver
+60-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/quocdu/.gradle/caches/9.0.0/transforms/b364fa3aa3f9640cd3eaf4c8eade1c52/transformed/profileinstaller-1.3.1/AndroidManifest.xml:34:9-52:20
+61            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+61-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/quocdu/.gradle/caches/9.0.0/transforms/b364fa3aa3f9640cd3eaf4c8eade1c52/transformed/profileinstaller-1.3.1/AndroidManifest.xml:35:13-76
+62            android:directBootAware="false"
+62-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/quocdu/.gradle/caches/9.0.0/transforms/b364fa3aa3f9640cd3eaf4c8eade1c52/transformed/profileinstaller-1.3.1/AndroidManifest.xml:36:13-44
+63            android:enabled="true"
+63-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/quocdu/.gradle/caches/9.0.0/transforms/b364fa3aa3f9640cd3eaf4c8eade1c52/transformed/profileinstaller-1.3.1/AndroidManifest.xml:37:13-35
+64            android:exported="true"
+64-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/quocdu/.gradle/caches/9.0.0/transforms/b364fa3aa3f9640cd3eaf4c8eade1c52/transformed/profileinstaller-1.3.1/AndroidManifest.xml:38:13-36
+65            android:permission="android.permission.DUMP" >
+65-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/quocdu/.gradle/caches/9.0.0/transforms/b364fa3aa3f9640cd3eaf4c8eade1c52/transformed/profileinstaller-1.3.1/AndroidManifest.xml:39:13-57
+66            <intent-filter>
+66-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/quocdu/.gradle/caches/9.0.0/transforms/b364fa3aa3f9640cd3eaf4c8eade1c52/transformed/profileinstaller-1.3.1/AndroidManifest.xml:40:13-42:29
+67                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+67-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/quocdu/.gradle/caches/9.0.0/transforms/b364fa3aa3f9640cd3eaf4c8eade1c52/transformed/profileinstaller-1.3.1/AndroidManifest.xml:41:17-91
+67-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/quocdu/.gradle/caches/9.0.0/transforms/b364fa3aa3f9640cd3eaf4c8eade1c52/transformed/profileinstaller-1.3.1/AndroidManifest.xml:41:25-88
+68            </intent-filter>
+69            <intent-filter>
+69-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/quocdu/.gradle/caches/9.0.0/transforms/b364fa3aa3f9640cd3eaf4c8eade1c52/transformed/profileinstaller-1.3.1/AndroidManifest.xml:43:13-45:29
+70                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+70-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/quocdu/.gradle/caches/9.0.0/transforms/b364fa3aa3f9640cd3eaf4c8eade1c52/transformed/profileinstaller-1.3.1/AndroidManifest.xml:44:17-85
+70-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/quocdu/.gradle/caches/9.0.0/transforms/b364fa3aa3f9640cd3eaf4c8eade1c52/transformed/profileinstaller-1.3.1/AndroidManifest.xml:44:25-82
+71            </intent-filter>
+72            <intent-filter>
+72-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/quocdu/.gradle/caches/9.0.0/transforms/b364fa3aa3f9640cd3eaf4c8eade1c52/transformed/profileinstaller-1.3.1/AndroidManifest.xml:46:13-48:29
+73                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+73-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/quocdu/.gradle/caches/9.0.0/transforms/b364fa3aa3f9640cd3eaf4c8eade1c52/transformed/profileinstaller-1.3.1/AndroidManifest.xml:47:17-88
+73-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/quocdu/.gradle/caches/9.0.0/transforms/b364fa3aa3f9640cd3eaf4c8eade1c52/transformed/profileinstaller-1.3.1/AndroidManifest.xml:47:25-85
+74            </intent-filter>
+75            <intent-filter>
+75-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/quocdu/.gradle/caches/9.0.0/transforms/b364fa3aa3f9640cd3eaf4c8eade1c52/transformed/profileinstaller-1.3.1/AndroidManifest.xml:49:13-51:29
+76                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+76-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/quocdu/.gradle/caches/9.0.0/transforms/b364fa3aa3f9640cd3eaf4c8eade1c52/transformed/profileinstaller-1.3.1/AndroidManifest.xml:50:17-95
+76-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/quocdu/.gradle/caches/9.0.0/transforms/b364fa3aa3f9640cd3eaf4c8eade1c52/transformed/profileinstaller-1.3.1/AndroidManifest.xml:50:25-92
+77            </intent-filter>
+78        </receiver>
+79    </application>
+80
+81</manifest>
